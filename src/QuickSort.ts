@@ -3,7 +3,7 @@
 
 //[O ... N] -> chose P (pivot) -> whatever item and then walk the whol array. any item less than pivot is on one side, and the others are on the other side.
 
-//my attempt
+//my attempt - works but is space inefficient
 function quickSort(array: number[]): number[] {
     if (array.length === 1) {
         return array
